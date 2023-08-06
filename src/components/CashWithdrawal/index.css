@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.miniContainer {
+  background-color: #150b3e;
+  width: 400px;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nameDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.firstLetter {
+  color: #7c3aed;
+  font-size: 15px;
+}
+
+.firstLetterContainer {
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullName {
+  color: #c4c4c4;
+  margin-left: 20px;
+  font-size: 21px;
+}
+
+.balanceContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 310px;
+}
+
+.balanceTitle {
+  color: #585076;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.amount {
+  color: #d4d2db;
+  font-size: 28px;
+}
+
+.currency {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.withdrawalTitle {
+  font-size: 24px;
+  color: #d4d2db;
+}
+
+.chooseDenomination {
+  color: #585076;
+  font-weight: 500;
+}
+
+.denominationsContainer {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
